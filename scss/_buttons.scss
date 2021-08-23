@@ -1,0 +1,59 @@
+.btn-primary {
+  display: inline-block;
+  line-height: 1.8rem;
+  background-color: $yellow-brand;
+  padding: 1.1rem 5rem;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $black-brand;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #ffdc5c;
+  }
+}
+
+.btn-black {
+  display: inline-block;
+  line-height: 1.95rem;
+  background-color: $black-brand;
+  color: white;
+  padding: 1.8rem 8.3rem;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: $gray-brand;
+  }
+}
+
+.btn-white {
+  display: inline-block;
+  line-height: 1.95rem;
+  background-color: transparent;
+  color: $gray-brand;
+  padding: 1.8rem 8.3rem;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $black-brand;
+    color: white;
+  }
+}

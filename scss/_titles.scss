@@ -1,0 +1,35 @@
+h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: $black-brand;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 130%;
+}
+
+h3,
+h4 {
+  font-family: "Montserrat";
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: $gray-brand;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: white;
+}
