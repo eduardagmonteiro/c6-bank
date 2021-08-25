@@ -57,3 +57,43 @@
     color: white;
   }
 }
+
+.btn-mini {
+  display: inline-block;
+  line-height: 1.57rem;
+  background-color: #006d8f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 120px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  text-align: center;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: #025f7b;
+  }
+}
+
+.btn-transparent {
+  display: inline-block;
+  line-height: 1.8rem;
+  background-color: transparent;
+  padding: 1.5rem 4rem;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: white;
+    color: #130101;
+  }
+}
