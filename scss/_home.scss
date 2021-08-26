@@ -135,3 +135,112 @@
     }
   }
 }
+
+.s-card {
+  .container {
+    margin-top: 8rem;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 9rem;
+
+      .left-area {
+        margin-top: 10rem;
+        margin-bottom: 17.3rem;
+        height: 25rem;
+        max-width: 62.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6.8rem;
+
+        .text-card {
+          max-width: 25.9rem;
+          h4 {
+            font-weight: 500;
+            margin-top: 3.3rem;
+            margin-bottom: 1rem;
+          }
+          p {
+            font-weight: 400;
+            font-family: "Inter" sans-serif;
+            font-size: 1.6rem;
+            color: $gray-brand;
+          }
+        }
+      }
+      .right-area {
+        margin-top: -24rem;
+
+        img {
+          position: relative;
+        }
+      }
+    }
+  }
+
+  @include responsive(991px) {
+    .container {
+      h2 {
+        text-align: center;
+      }
+      h3 {
+        margin-top: 1.3rem;
+        text-align: center;
+      }
+      .content {
+        justify-content: center;
+        align-items: center;
+        .left-area {
+          gap: 8.8rem;
+          align-items: center;
+          justify-content: center;
+          .text-card {
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .right-area {
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  @include responsive(480px) {
+    .container {
+      margin-top: 7rem;
+      h2 {
+        font-size: 3.2rem;
+      }
+      h3 {
+        margin-top: 0.4rem;
+        font-size: 2.4rem;
+      }
+      .content {
+        .left-area {
+          gap: 5.8rem;
+          margin-top: 6rem;
+          margin-bottom: 15rem;
+          .text-card {
+            h4 {
+              margin-top: 2.3rem;
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+            .icon {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
