@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.min.css" />
     <title>Projeto C6 bank</title>
   </head>
@@ -39,7 +40,7 @@
       </div>
     </header>
     <section class="s-hero">
-      <div class="container">
+      <div class="container" data-aos="fade-right">
         <div class="text">
           <button class="btn-mini">Novo</button>
           <span><p>Conheça nosso Programa de Pontos Átomos</p></span>
@@ -56,10 +57,10 @@
     </section>
     <section class="s-card">
       <div class="container">
-        <h2>Sem tarifas:</h2>
-        <h3>economize seu dinheiro</h3>
+        <h2 data-aos="fade-right">Sem tarifas:</h2>
+        <h3 data-aos="fade-right">economize seu dinheiro</h3>
         <div class="content">
-          <div class="left-area">
+          <div class="left-area" data-aos="fade-right">
             <div class="text-card">
               <div class="icon">
                 <img src="img/icon-saque.svg" alt="" />
@@ -101,11 +102,52 @@
               </p>
             </div>
           </div>
-          <div class="right-area">
+          <div class="right-area" data-aos="zoom-in">
             <img src="img/cards.png" alt="" />
           </div>
         </div>
       </div>
     </section>
+    <section class="s-bank">
+      <div class="container">
+        <div class="top">
+          <div class="text" data-aos="fade-right">
+            <h2>Um banco completo</h2>
+            <h3>com produtos exclusivos</h3>
+          </div>
+          <div class="buttons">
+            <button class="btn-black">PARA VOCÊ</button>
+            <button class="btn-white">PARA SUA EMPRESA</button>
+          </div>
+        </div>
+        <div class="main-area">
+          <div class="left-area" data-aos="zoom-in">
+            <h3>Conta com cartão C6 Business</h3>
+            <p>
+              A conta MEI é completa e não tem tarifa de manutenção. Além disso,
+              você pode ter um cartão de crédito sem anuidade.
+            </p>
+            <div class="icon">
+              <img src="img/icon sound.svg" alt="" />
+              <span>Aproxime e pague</span>
+            </div>
+          </div>
+          <div class="right-area" data-aos="zoom-in" infinite>
+            <img class="card-black" src="img/card-black.png" alt="" />
+            <img class="iphone" src="img/iphone.png" alt="" />
+            <img class="logo-business" src="img/c-business.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
   </body>
 </html>
